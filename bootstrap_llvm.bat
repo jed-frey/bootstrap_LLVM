@@ -15,5 +15,5 @@ cd %~dp0
 if not exist %PKG% %~dp0curl.exe -L -o %~dp0%PKG% %URL%
 : If the package has not been 'installed' install it.
 if not exist %~dp0LLVM 7z x %PKG% -y -o%~dp0\LLVM
-
+cd ..
 set PATH=%PATH%;%~dp0LLVM\bin
