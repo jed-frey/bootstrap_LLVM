@@ -1,0 +1,2 @@
+@ECHO OFF
+set PATH=%PATH%;%~dp0LLVM\bin
