@@ -1,2 +1,4 @@
 @ECHO OFF
+set LLVMROOT=%~dp0LLVM
+set MW_LLVM64_LOC=%~dp0LLVM
 set PATH=%PATH%;%~dp0LLVM\bin
